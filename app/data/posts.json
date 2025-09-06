@@ -1,0 +1,26 @@
+[
+  {
+    "href": "/blog/front-end-developer",
+    "imgSrc": "/img/news/Top-10-front-end-developer-in-Bangladesh.png",
+    "title": "Best 10 Front End Developers in Bangladesh",
+    "date": "September 6, 2024",
+    "comments": 0,
+    "delay": 0.2
+  },
+  {
+    "href": "/blog/wordpress-website-designer",
+    "imgSrc": "/img/news/Top-10-WordPress-Website-Designers-in-Bangladesh-Unleash-Your-Websites-Potential-in-2024.png",
+    "title": "Best 10 WordPress Website Designers in Bangladesh",
+    "date": "September 6, 2024",
+    "comments": 0,
+    "delay": 0.4
+  },
+  {
+    "href": "/blog/best-wordpress-web-design-agency-in-bangladesh",
+    "imgSrc": "/img/news/Top-10-Best-Web-Design-Company-in-Bangladesh.png",
+    "title": "Best WordPress Web Design Agency in Bangladesh",
+    "date": "September 6, 2024",
+    "comments": 0,
+    "delay": 0.6
+  }
+]

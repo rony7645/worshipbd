@@ -20,14 +20,14 @@ export default function Hero() {
           <div className="row g-4 justify-content-between align-items-center">
             <div className="col-lg-6">
               <div className="hero-content">
-                <h6 className="wow fadeInUp">
+                <h6 className="wow animate__fadeInUp">
                   Your Trusted Full-Service IT Partner{" "}
                 </h6>
-                <h1 className="wow fadeInUp" data-wow-delay=".3s">
+                <h1 className="wow animate__fadeInUp" data-wow-delay=".3s">
                   END-TO-END <br />
                   <span>DEVELOPMENT </span>
                 </h1>
-                <p className="wow fadeInUp" data-wow-delay=".5s">
+                <p className="wow animate__fadeInUp" data-wow-delay=".5s">
                   You are designing tomorrow's online presence today with
                   Worshipbd Web Design Agency – because your website design
                   should be as remarkable as your business.

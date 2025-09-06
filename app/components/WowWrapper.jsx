@@ -13,7 +13,8 @@ export default function WowWrapper({ children }) {
               const el = entry.target;
               const delay = el.getAttribute("data-wow-delay") || "0s";
               el.style.animationDelay = delay;
-              el.classList.add("animate__animated", "animate__fadeInUp");
+              // Only add base animation class
+              el.classList.add("animate__animated");
               observer.unobserve(el);
             }
           });

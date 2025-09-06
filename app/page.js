@@ -11,13 +11,13 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <WhyChoose/>
-      <CtaCounter/>
-      <OurServices/>
-      <About/>
-      <Faq/>
-      <Testimonial/>
-      <Blog/>
+      <WhyChoose />
+      <CtaCounter />
+      <OurServices />
+      <About />
+      <Faq />
+      <Testimonial />
+      <Blog />
     </>
   );
 }

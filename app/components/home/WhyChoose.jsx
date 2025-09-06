@@ -11,21 +11,21 @@ export default function WhyChoose() {
         <div className="container">
           <div className="section-title-area">
             <div className="section-title">
-              <div className="sub-title wow fadeInUp">
+              <div className="sub-title wow animate__fadeInUp">
                 <span>why choose us</span>
               </div>
-              <h2 className="wow fadeInUp" data-wow-delay=".3s">
+              <h2 className="wow animate__fadeInUp" data-wow-delay=".3s">
                 We turn your dream <br />
                 <span> into reality Now </span>
               </h2>
             </div>
-            <p className="wow fadeInUp" data-wow-delay=".5s">
+            <p className="wow animate__fadeInUp" data-wow-delay=".5s">
               We work to win the hearts of our partners
             </p>
           </div>
           <div className="row">
             <div
-              className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
+              className="col-xl-3 col-lg-4 col-md-6 wow animate__fadeInUp"
               data-wow-delay=".2s"
             >
               <div className="feature-box-items">
@@ -44,7 +44,7 @@ export default function WhyChoose() {
             </div>
 
             <div
-              className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
+              className="col-xl-3 col-lg-4 col-md-6 wow animate__fadeInUp"
               data-wow-delay=".4s"
             >
               <div className="feature-box-items">
@@ -63,7 +63,7 @@ export default function WhyChoose() {
             </div>
 
             <div
-              className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
+              className="col-xl-3 col-lg-4 col-md-6 wow animate__fadeInUp"
               data-wow-delay=".6s"
             >
               <div className="feature-box-items">
@@ -82,7 +82,7 @@ export default function WhyChoose() {
             </div>
 
             <div
-              className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
+              className="col-xl-3 col-lg-4 col-md-6 wow animate__fadeInUp"
               data-wow-delay=".8s"
             >
               <div

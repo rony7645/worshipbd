@@ -20,7 +20,7 @@ export default function ServiceCard({service}) {
           </h4>
           <p>{service.desc}</p>
           <Link href={service.link} className="link-btn">
-            Read More <ArrowRight />
+            Read More <ArrowRight size={18} />
           </Link>
         </div>
       </div>
