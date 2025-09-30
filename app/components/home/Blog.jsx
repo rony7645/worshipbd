@@ -20,7 +20,7 @@ export default function Blog() {
         </div>
       </div>
 
-      <div className="container-fluid">
+      <div className="container">
         <div className="row">
           {posts.map((news, i) => (
             <BlogCard news={news} key={i}/>

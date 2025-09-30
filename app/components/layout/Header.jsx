@@ -48,13 +48,13 @@ export default function Header() {
                       </ul>
                     </li>
                     <li>
-                      <Link href="/case">Case Studies</Link>
+                      <Link href="/case-studies">Case Studies</Link>
                     </li>
                     <li>
-                      <Link href="/blog">Blog</Link>
+                      <Link href="/blogs">Blogs</Link>
                     </li>
                     <li>
-                      <Link href="/contact">Contact Us</Link>
+                      <Link href="/contact-us">Contact Us</Link>
                     </li>
                   </ul>
                 </nav>

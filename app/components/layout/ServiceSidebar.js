@@ -53,8 +53,8 @@ export default function ServiceSidebar() {
                             <ArrowRight size={16} />
                           </span>
                         </li>
-                        <li className={pathname === "/services/video-editing" && "active"}>
-                          <Link href="/services/video-editing">
+                        <li className={pathname === "/our-services/video-editing" && "active"}>
+                          <Link href="/our-services/video-editing">
                             Video Editing
                           </Link>
                           <span>

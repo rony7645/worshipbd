@@ -3,42 +3,42 @@
     "icon": "/img/service/icon-01.png",
     "name": "Web Design & Development",
     "desc": "Custom websites built for performance and creativity.",
-    "link": "services/web-development.html",
+    "link": "/our-services/web-development",
     "delay": ".3s"
   },
   {
     "icon": "/img/service/icon-3.png",
     "name": "Graphics Design",
     "desc": "Engaging visuals for web, print, and branding.",
-    "link": "services/graphics-design.html",
+    "link": "/our-services/graphics-design",
     "delay": ".5s"
   },
   {
     "icon": "/img/service/icon-1.png",
     "name": "Digital Marketing",
     "desc": "Boost traffic and sales with smart strategies.",
-    "link": "services/social-media-marketing.html",
+    "link": "/our-services/digital-marketing",
     "delay": ".7s"
   },
   {
     "icon": "/img/service/icon-2.png",
     "name": "Search Engine Optimization",
-    "desc": "Rank higher and grow with expert SEO.",
-    "link": "services/seo.html",
+    "desc": "Rank higher and grow faster with expert SEO strategies.",
+    "link": "/our-services/seo",
     "delay": ".3s"
   },
   {
     "icon": "/img/service/icon-5.png",
     "name": "Video Editing",
     "desc": "Captivating videos to elevate your brand online.",
-    "link": "services/video-editing.html",
+    "link": "/our-services/video-editing",
     "delay": ".5s"
   },
   {
     "icon": "/img/service/icon-6.png",
     "name": "Data Entry",
     "desc": "Accurate data handling for smooth digital operations.",
-    "link": "services/data-entry.html",
+    "link": "/our-services/data-entry",
     "delay": ".7s"
   }
 ]

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function BlogCard({news}) {
   return (
-    <div className="col-xl-3 col-lg-4 col-md-6">
+    <div className="col-md-4">
       <div className="news-box-items">
         <div
           className="news-image wow img-custom-anim-top"
