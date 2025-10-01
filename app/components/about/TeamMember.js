@@ -1,25 +1,24 @@
 import Image from "next/image";
 
 // Import all team images
-import team7 from "../../../public/img/team/01.jpg";
-// import team6 from "/public/img/team/6.jpeg";
-// import team3 from "/public/img/team/3.png";
-// import team4 from "/public/img/team/4.jpg";
-// import team5 from "/public/img/team/5.jpg";
-// import team10 from "/public/img/team/10.jpg";
-// import team8 from "/public/img/team/8.jpg";
-// import team9 from "/public/img/team/9.jpg";
-// import team11 from "/public/img/team/11.jpg";
-// import team12 from "/public/img/team/12.jpg";
-// import team13 from "/public/img/team/13.jpg";
-// import team15 from "/public/img/team/15.png";
-// import team16 from "/public/img/team/16.jpg";
-// import team17 from "/public/img/team/17.jpeg";
-// import team18 from "/public/img/team/18.jpeg";
-// import team20 from "/public/img/team/20.jpg";
-// import team21 from "/public/img/team/21.jpg";
-// import team19 from "/public/img/team/19.jpg";
-// import team14 from "/public/img/team/14.jpg";
+import team7 from "@/public/img/team/7.jpg";
+import team6 from "@/public/img/team/6.jpeg";
+import team3 from "@/public/img/team/3.png";
+import team4 from "@/public/img/team/4.jpg";
+import team5 from "@/public/img/team/5.jpg";
+import team10 from "@/public/img/team/10.jpg";
+import team8 from "@/public/img/team/8.jpg";
+import team9 from "@/public/img/team/9.jpg";
+import team11 from "@/public/img/team/11.jpg";
+import team12 from "@/public/img/team/12.jpg";
+import team13 from "@/public/img/team/13.jpg";
+import team15 from "@/public/img/team/15.png";
+import team16 from "@/public/img/team/16.jpg";
+import team17 from "@/public/img/team/17.jpeg";
+import team18 from "@/public/img/team/18.jpeg";
+import team20 from "@/public/img/team/20.jpg";
+import team19 from "@/public/img/team/19.jpg";
+import team14 from "@/public/img/team/14.jpg";
 
 export default function TeamMember() {
   const developers = [
@@ -42,7 +41,6 @@ export default function TeamMember() {
     { img: team17, name: "Mafiya Momo", role: "Digital Marketer", delay: ".2s" },
     { img: team18, name: "Mst Rukaia Tanha", role: "SEO Specialist", delay: ".4s" },
     { img: team20, name: "Shamim Khan", role: "Video Editor", delay: ".6s" },
-    { img: team21, name: "MD. Rafi Hossain", role: "Video Editor", delay: ".8s" },
     { img: team19, name: "Ebrahim Hosen Iqbal", role: "Graphics Designer", delay: ".2s" },
     { img: team14, name: "Anamul Haque", role: "Video Editor", delay: ".4s" },
   ];
