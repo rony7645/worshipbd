@@ -15,7 +15,7 @@ export default function AboutUsPage () {
         <Breadcrumb title={metadata.title}/>
         <AboutComapany />
         <Founder/>
-        <TeamMember/>
+       
         <TechSkills/>
         </>
     )

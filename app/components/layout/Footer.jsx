@@ -4,6 +4,9 @@ import Image from "next/image";
 
 // logo
 import logo_white from "@/public/img/logo/logo-wihte.png";
+import rocket from "@/public/img/rokect.png"
+import cta_bg from "@/public/img/cta-bg.jpg"
+import cta_img from "@/public/img/cta-img.png"
 
 // recent post images
 import post1 from "@/public/img/news/Top-10-front-end-developer-in-Bangladesh.png";
@@ -12,6 +15,41 @@ import { ArrowRight, ChevronRight, ChevronUp, Mail } from "lucide-react";
 
 export default function Footer() {
   return (
+
+   <>
+    {/* Cta Section Start */}
+      <section className="cta-section section-padding pb-0">
+        <div className="rokect-shape float-bob-y">
+          <Image src={rocket} alt="rocket" width={150} height={150} />
+        </div>
+        <div className="container">
+          <div
+            className="cta-wrapper bg-cover"
+            style={{ backgroundImage: `url(${cta_bg})` }}
+          >
+            <div
+              className="cta-img wow img-custom-anim-left"
+              data-wow-duration="1.5s"
+              data-wow-delay="0.3s"
+            >
+              <Image src={cta_img} alt="cta" width={400} height={400} />
+            </div>
+
+            <h2 className="wow fadeInUp" data-wow-delay=".3s">
+              Stay Connected With <br /> Worshipbd
+            </h2>
+
+            <div className="main-button wow fadeInUp" data-wow-delay=".5s">
+              <a href="/contact">
+                <span className="theme-btn">Free Consultation</span>
+                <span className="arrow-btn">
+                  <i className="fa-regular fa-arrow-up-right"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
     <section className="footer-section footer-bg fix">
       <div className="container">
         <div className="footer-widgets-wrapper">
@@ -195,5 +233,6 @@ export default function Footer() {
         </a>
       </div>
     </section>
+   </>
   );
 }
