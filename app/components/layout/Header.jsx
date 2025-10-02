@@ -32,7 +32,7 @@ export default function Header() {
                 <nav id="mobile-menu">
                   <ul>
                     <li className="active menu-thumb">
-                      <Link href="/">Home</Link>
+                      <Link href="/">Home testing</Link>
                     </li>
                     <li>
                       <Link href="/about-us">About us</Link>
