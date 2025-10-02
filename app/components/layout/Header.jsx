@@ -6,7 +6,7 @@ import Button from "../button/Button";
 
 export default function Header() {
   const servicesMenu = [
-    { name: "Web Design & Developments testing", href: "/our-services/web-development" },
+    { name: "Web Design & Developments", href: "/our-services/web-development" },
     { name: "Graphics Design", href: "/our-services/graphics-design" },
     { name: "Digital Marketing", href: "/our-services/digital-marketing" },
     { name: "SEO", href: "/our-services/seo" },
@@ -32,7 +32,7 @@ export default function Header() {
                 <nav id="mobile-menu">
                   <ul>
                     <li className="active menu-thumb">
-                      <Link href="/">Home testing</Link>
+                      <Link href="/">Home</Link>
                     </li>
                     <li>
                       <Link href="/about-us">About us</Link>
