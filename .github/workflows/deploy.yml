@@ -1,0 +1,28 @@
+name: worshipbd_deploy
+
+on:
+  push:
+    branches:
+      - main  
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@v0.1.9
+        with:
+          host: 86.38.217.217
+          username: root
+          key: ${{ secrets.SSH_KEY }}
+          port: 22
+          script: |
+            cd /var/www/html/worshipbd.com
+            git pull origin main
+            npm install --production
+            npm run build
+            pm2 restart worshipbd
