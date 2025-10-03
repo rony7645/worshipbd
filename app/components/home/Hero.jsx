@@ -21,7 +21,7 @@ export default function Hero() {
             <div className="col-lg-6">
               <div className="hero-content">
                 <h6 className="wow animate__fadeInUp">
-                  Your Trusted Full-Service IT Partner{" "}
+                  Your Trusted Full-Service IT Partners{" "}
                 </h6>
                 <h1 className="wow animate__fadeInUp" data-wow-delay=".3s">
                   END-TO-END <br />
