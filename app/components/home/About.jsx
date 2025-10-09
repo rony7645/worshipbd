@@ -94,7 +94,7 @@ export default function About() {
                     </div>
                   </div>
                 </div>
-                <Button className="about-button" link="#">Get Started</Button>
+                <Button className="about-button" link="/contact-us">Get Started</Button>
               </div>
             </div>
           </div>

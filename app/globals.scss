@@ -32,3 +32,15 @@
 @import "./styles/_testimonial";
 @import "./styles/_iconmoon";
 @import "./styles/_case-studies-card";
+@import "./styles/_accordion";
+
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1410px;
+  }
+}

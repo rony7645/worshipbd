@@ -11,7 +11,9 @@ import cta_img from "@/public/img/cta-img.png"
 // recent post images
 import post1 from "@/public/img/news/Top-10-front-end-developer-in-Bangladesh.png";
 import post2 from "@/public/img/news/Top-10-WordPress-Website-Designers-in-Bangladesh-Unleash-Your-Websites-Potential-in-2024.png";
-import { ArrowRight, ChevronRight, ChevronUp, Mail } from "lucide-react";
+import { ArrowRight, CalendarDays, ChevronRight, ChevronUp, Clock, Mail, PhoneCall } from "lucide-react";
+import Button from "../button/Button";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -25,14 +27,10 @@ export default function Footer() {
         <div className="container">
           <div
             className="cta-wrapper bg-cover"
-            style={{ backgroundImage: `url(${cta_bg})` }}
+            style={{ backgroundImage: "url('/img/cta-bg.jpg')" }}
           >
-            <div
-              className="cta-img wow img-custom-anim-left"
-              data-wow-duration="1.5s"
-              data-wow-delay="0.3s"
-            >
-              <Image src={cta_img} alt="cta" width={400} height={400} />
+            <div className="cta-img img-custom-anim-left">
+              <Image src={cta_img} alt="cta" />
             </div>
 
             <h2 className="wow fadeInUp" data-wow-delay=".3s">
@@ -40,16 +38,13 @@ export default function Footer() {
             </h2>
 
             <div className="main-button wow fadeInUp" data-wow-delay=".5s">
-              <a href="/contact">
-                <span className="theme-btn">Free Consultation</span>
-                <span className="arrow-btn">
-                  <i className="fa-regular fa-arrow-up-right"></i>
-                </span>
-              </a>
+              <Button className="hero-button" link="/contact-us">Get Started</Button>
             </div>
           </div>
         </div>
       </section>
+
+
     <section className="footer-section footer-bg fix">
       <div className="container">
         <div className="footer-widgets-wrapper">
@@ -67,7 +62,7 @@ export default function Footer() {
                     We are passionate digital creators committed to crafting beautiful,
                     functional, and high-performing websites that drive results.
                   </p>
-                  <div className="social-icon d-flex align-items-center">
+                  {/* <div className="social-icon d-flex align-items-center">
                     <a href="https://www.facebook.com/worshipbd19" target="_blank">
                       <i className="fab fa-facebook-f"></i>
                     </a>
@@ -83,7 +78,7 @@ export default function Footer() {
                     <a href="https://www.behance.net/worshipbd" target="_blank">
                       <i className="fa-brands fa-behance"></i>
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -96,29 +91,29 @@ export default function Footer() {
                 </div>
                 <ul className="list-area">
                   <li>
-                    <a href="../about.html">
+                    <Link href="/about-us">
                       <ChevronRight /> About us
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="../service.html">
+                    <Link href="/our-services">
                       <ChevronRight /> Our Services
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="../blog.html">
+                    <Link href="/blogs">
                       <ChevronRight /> Our Blogs
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="../case.html">
+                    <Link href="/case-studies">
                       <ChevronRight /> Case Studies
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="../contact.html">
+                    <Link href="/contact-us">
                       <ChevronRight /> Contact Us
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -137,8 +132,8 @@ export default function Footer() {
                     </div>
                     <div className="content">
                       <ul className="post-date">
-                        <li>
-                          <i className="fa-solid fa-calendar-days me-2"></i> 6 Sep, 2024
+                        <li className="d-flex gap-2 align-items-center">
+                          <CalendarDays size={15} /> 6 Sep, 2024
                         </li>
                       </ul>
                       <h6>
@@ -154,8 +149,8 @@ export default function Footer() {
                     </div>
                     <div className="content">
                       <ul className="post-date">
-                        <li>
-                          <i className="fa-solid fa-calendar-days me-2"></i> 6 Sep, 2024
+                        <li className="d-flex gap-2 align-items-center">
+                          <CalendarDays size={15} /> 6 Sep, 2024
                         </li>
                       </ul>
                       <h6>
@@ -177,33 +172,19 @@ export default function Footer() {
                 </div>
                 <div className="footer-content">
                   <ul className="contact-info">
-                    <li>
-                      <Mail />{" "}
+                    <li className="d-flex gap-2 align-items-center">
+                      <Mail size={20} color="#fff"/>{" "}
                       <a href="mailto:admin@worshipbd.com">admin@worshipbd.com</a>
                     </li>
-                    <li>
-                      <i className="fa-solid fa-phone-volume"></i>{" "}
+                    <li className="d-flex gap-2 align-items-center">
+                      <PhoneCall size={20} color="#fff"/>
                       <a href="tel:+8801784388538">+880 1784-388538</a>
                     </li>
+                    <li className="d-flex gap-2 align-items-center">
+                      <Clock size={20} color="#fff"/>
+                      <a href="#">24/7 Support Available</a>
+                    </li>
                   </ul>
-                  <div className="footer-input">
-                    <input type="email" id="email2" placeholder="Your email address" />
-                    <button className="newsletter-btn" type="submit">
-                      <ArrowRight />
-                    </button>
-                  </div>
-                  <div className="form-check">
-                    <input
-                      className="form-check-input"
-                      type="checkbox"
-                      value=""
-                      id="flexCheckChecked"
-                      defaultChecked
-                    />
-                    <label className="form-check-label" htmlFor="flexCheckChecked">
-                      I agree to the <a href="../privacy-policy.html">Privacy Policy.</a>
-                    </label>
-                  </div>
                 </div>
               </div>
             </div>

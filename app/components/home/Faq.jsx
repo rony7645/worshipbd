@@ -2,15 +2,11 @@
 
 import { useEffect } from "react";
 import Image from "next/image";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'animate.css/animate.min.css';
-
-// Images
 import faq_overlay from "@/public/img/faq-overlay.png";
 import faq_shape from "@/public/img/faq-shape.png";
 
 export default function Faq() {
-  // Dynamically import Bootstrap JS on client
+
   useEffect(() => {
     import("bootstrap/dist/js/bootstrap.bundle.min.js");
   }, []);

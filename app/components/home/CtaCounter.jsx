@@ -12,7 +12,7 @@ export default function CtaCounter() {
       <div className="container">
         <div
           className="cta-counter-wrapper bg-cover"
-          style={{ backgroundImage: "url('img/bg-002.jpg')" }}
+          style={{ backgroundImage: "url('/img/bg-002.jpg')" }}
         >
           <div className="shape-img">
             <Image src={counter_shape} alt="img" />

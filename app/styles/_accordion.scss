@@ -1,0 +1,28 @@
+.accordion-button::after {
+  display: none;
+}
+
+.accordion-button {
+  position: relative;
+  padding-right: 40px; 
+}
+
+.accordion-button::before {
+  content: "";
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  width: 24px;
+  height: 24px;
+  transform: translateY(-50%) rotate(0deg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px;
+  transition: transform 0.3s ease, background-image 0.3s ease;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='m6 9 6 6 6-6'/></svg>");
+}
+
+.accordion-button:not(.collapsed)::before {
+  transform: translateY(-50%) rotate(180deg);
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%2340c0c4' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='m6 9 6 6 6-6'/></svg>");
+}

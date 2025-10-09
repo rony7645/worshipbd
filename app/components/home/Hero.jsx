@@ -21,7 +21,7 @@ export default function Hero() {
             <div className="col-lg-6">
               <div className="hero-content">
                 <h6 className="wow animate__fadeInUp">
-                  Your Trusted Full-Service IT Partners{" "}
+                  Your Trusted Full-Service IT Partner
                 </h6>
                 <h1 className="wow animate__fadeInUp" data-wow-delay=".3s">
                   END-TO-END <br />
@@ -32,7 +32,7 @@ export default function Hero() {
                   Worshipbd Web Design Agency – because your website design
                   should be as remarkable as your business.
                 </p>
-                <Button className="hero-button" link="google.com">Get Started</Button>
+                <Button className="hero-button" link="/contact-us">Get Started</Button>
               </div>
             </div>
             <div className="col-lg-5">

@@ -27,7 +27,7 @@ export default function OurServices() {
         <Services/>
         
 
-        <Button className="about-button text-center pt-5" link="contact.html">Talk to an Expert</Button>
+        <Button className="about-button text-center pt-5" link="/contact-us">Talk to an Expert</Button>
         
       </div>
     </section>

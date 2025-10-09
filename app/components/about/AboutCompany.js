@@ -19,35 +19,21 @@ export default function AboutComapany() {
 
             {/* Left Side Video */}
             <div className="col-lg-6 d-flex align-items-center justify-content-center">
-              <div
-                className="about-video"
-                style={{
-                  position: "relative",
-                  width: "100%",
-                  maxWidth: "100%",
-                  paddingTop: "56.25%",
-                  overflow: "hidden",
-                  borderRadius: "12px",
-                }}
-              >
-                {/* <video
-                  autoPlay
-                  muted
-                  loop
-                  playsInline
-                  style={{
-                    position: "absolute",
-                    top: 0,
-                    left: 0,
-                    width: "100%",
-                    height: "100%",
-                    objectFit: "cover",
-                    borderRadius: "12px",
-                  }}
-                >
-                  <source src={videoFile.src} type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video> */}
+              <div className="about-video">
+                <iframe
+  src="https://www.youtube.com/embed/ACvs_awDrEs?autoplay=1&mute=1&loop=1&playlist=ACvs_awDrEs&controls=0"
+  title="ONIRICUM AGENCY - PLACEHOLDER"
+  frameBorder="0"
+  allow="autoplay; fullscreen"
+  allowFullScreen
+  style={{
+    width: "750px",
+    height: "500px",
+    borderRadius: "12px",
+    border: "none",
+    pointerEvents: "none",
+  }}
+></iframe>
               </div>
             </div>
 

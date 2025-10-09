@@ -56,9 +56,6 @@ export default function Header() {
                     <li>
                       <Link href="/contact-us">Contact Us</Link>
                     </li>
-                    <li>
-                      <Link href="/contact-us">Contact Us</Link>
-                    </li>
                   </ul>
                 </nav>
               </div>
@@ -66,7 +63,7 @@ export default function Header() {
 
             {/* Header Right */}
             <div className="header-right d-flex justify-content-end align-items-center">
-              <Button link="/" className="main-button">
+              <Button link="/contact-us" className="main-button">
                 Get Started
               </Button>
 
