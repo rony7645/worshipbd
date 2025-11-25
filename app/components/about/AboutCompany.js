@@ -20,20 +20,22 @@ export default function AboutComapany() {
             {/* Left Side Video */}
             <div className="col-lg-6 d-flex align-items-center justify-content-center">
               <div className="about-video">
-                <iframe
-  src="https://www.youtube.com/embed/ACvs_awDrEs?autoplay=1&mute=1&loop=1&playlist=ACvs_awDrEs&controls=0"
-  title="ONIRICUM AGENCY - PLACEHOLDER"
-  frameBorder="0"
-  allow="autoplay; fullscreen"
-  allowFullScreen
-  style={{
-    width: "750px",
-    height: "500px",
-    borderRadius: "12px",
-    border: "none",
-    pointerEvents: "none",
-  }}
-></iframe>
+                <iframe  
+                style={{
+                    width: "750px",
+                    height: "500px",
+                    borderRadius: "12px",
+                    border: "none",
+                    pointerEvents: "none",
+                  }} 
+                  src="https://www.youtube.com/embed/ES22UiYewfE" 
+                  title="WORSHIPBD টিম পরিচিতি | Meet Our Team | IT Agency Introduction" 
+                  frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                  referrerpolicy="strict-origin-when-cross-origin" 
+                  allowfullscreen>
+                    
+                  </iframe>
               </div>
             </div>
 

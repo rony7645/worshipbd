@@ -22,16 +22,13 @@ import team14 from "@/public/img/team/14.jpg";
 
 export default function TeamMember() {
   const developers = [
-    { img: team6, name: "Mehedi Hasan Mithun", role: "Senior Full-Stack Developer", delay: ".2s" },
     { img: team7, name: "Roni Mia", role: "Senior Full-Stack Developer", delay: ".4s" },
     { img: team3, name: "Shakhawat Hosen", role: "Senior Web Developer", delay: ".6s" },
-    { img: team4, name: "Imran Hossain", role: "Senior Web Developer", delay: ".8s" },
     { img: team5, name: "Sumon Chandra Nath", role: "Senior Web Developer", delay: ".2s" },
     { img: team10, name: "Israt Jahan Ripa", role: "Senior Web Developer", delay: ".4s" },
     { img: team8, name: "Md. Muhit Khan", role: "Senior Web Developer", delay: ".6s" },
     { img: team9, name: "Siam Ahamed", role: "Senior Web Developer", delay: ".8s" },
     { img: team11, name: "Akash Ahmed", role: "Web Developer", delay: ".2s" },
-    { img: team12, name: "Al-Amin", role: "Web Developer", delay: ".4s" },
     { img: team13, name: "Hadis Khan", role: "Web Developer", delay: ".6s" },
     { img: team15, name: "Tasrif Siddiki", role: "Web Developer", delay: ".8s" },
     { img: team16, name: "Sampad Biswas", role: "Web Developer", delay: ".2s" },

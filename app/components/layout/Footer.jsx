@@ -14,6 +14,10 @@ import post2 from "@/public/img/news/Top-10-WordPress-Website-Designers-in-Bangl
 import { ArrowRight, CalendarDays, ChevronRight, ChevronUp, Clock, Mail, PhoneCall } from "lucide-react";
 import Button from "../button/Button";
 import Link from "next/link";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons';
+
+
 
 export default function Footer() {
   return (
@@ -62,12 +66,14 @@ export default function Footer() {
                     We are passionate digital creators committed to crafting beautiful,
                     functional, and high-performing websites that drive results.
                   </p>
-                  {/* <div className="social-icon d-flex align-items-center">
+                  <div className="social-icon d-flex align-items-center">
                     <a href="https://www.facebook.com/worshipbd19" target="_blank">
                       <i className="fab fa-facebook-f"></i>
-                    </a>
+                      <FontAwesomeIcon icon={faFacebook} size="lg" />
+                      </a>
                     <a href="https://www.linkedin.com/in/worship-bd/" target="_blank">
                       <i className="fab fa-linkedin-in"></i>
+                      <FontAwesomeIcon icon={faLinkedinIn} size="lg" />
                     </a>
                     <a href="https://x.com/worship_bd" target="_blank">
                       <i className="fa-brands fa-twitter"></i>
@@ -78,7 +84,7 @@ export default function Footer() {
                     <a href="https://www.behance.net/worshipbd" target="_blank">
                       <i className="fa-brands fa-behance"></i>
                     </a>
-                  </div> */}
+                  </div>
                 </div>
               </div>
             </div>

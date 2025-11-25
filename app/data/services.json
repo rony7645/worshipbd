@@ -9,14 +9,14 @@
   {
     "icon": "/img/service/icon-3.png",
     "name": "Graphics Design",
-    "desc": "Engaging visuals for web, print, and branding.",
+    "desc": "Engaging and creative visuals for web, print, and branding.",
     "link": "/our-services/graphics-design",
     "delay": ".5s"
   },
   {
     "icon": "/img/service/icon-1.png",
     "name": "Digital Marketing",
-    "desc": "Boost traffic and sales with smart strategies.",
+    "desc": "Boost traffic and sales with smart and effective strategies.",
     "link": "/our-services/digital-marketing",
     "delay": ".7s"
   },
