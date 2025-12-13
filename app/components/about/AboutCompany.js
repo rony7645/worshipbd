@@ -31,7 +31,7 @@ export default function AboutComapany() {
                   src="https://www.youtube.com/embed/ES22UiYewfE" 
                   title="WORSHIPBD টিম পরিচিতি | Meet Our Team | IT Agency Introduction" 
                   frameborder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                  allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                   referrerpolicy="strict-origin-when-cross-origin" 
                   allowfullscreen>
                     
