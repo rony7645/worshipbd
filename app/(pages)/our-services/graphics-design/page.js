@@ -5,7 +5,7 @@ import { CheckCircle } from "lucide-react";
 import Image from "next/image";
 
 export const metadata = {
-  title: "Web Design & Development",
+  title: "Graphics Design",
 };
 
 export default function GraphicsDesignPage() {

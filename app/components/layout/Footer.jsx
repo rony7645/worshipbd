@@ -15,7 +15,11 @@ import { ArrowRight, CalendarDays, ChevronRight, ChevronUp, Clock, Mail, PhoneCa
 import Button from "../button/Button";
 import Link from "next/link";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookF,
+  faLinkedinIn,
+  faInstagram,
+  faBehance,
+  faXTwitter } from '@fortawesome/free-brands-svg-icons';
 
 
 
@@ -67,24 +71,46 @@ export default function Footer() {
                     functional, and high-performing websites that drive results.
                   </p>
                   <div className="social-icon d-flex align-items-center">
-                    <a href="https://www.facebook.com/worshipbd19" target="_blank">
-                      <i className="fab fa-facebook-f"></i>
-                      <FontAwesomeIcon icon={faFacebook} size="lg" />
-                      </a>
-                    <a href="https://www.linkedin.com/in/worship-bd/" target="_blank">
-                      <i className="fab fa-linkedin-in"></i>
-                      <FontAwesomeIcon icon={faLinkedinIn} size="lg" />
-                    </a>
-                    <a href="https://x.com/worship_bd" target="_blank">
-                      <i className="fa-brands fa-twitter"></i>
-                    </a>
-                    <a href="https://www.instagram.com/worship_BD" target="_blank">
-                      <i className="fa-brands fa-instagram"></i>
-                    </a>
-                    <a href="https://www.behance.net/worshipbd" target="_blank">
-                      <i className="fa-brands fa-behance"></i>
-                    </a>
-                  </div>
+  <a
+    href="https://www.facebook.com/worshipbd19"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <FontAwesomeIcon icon={faFacebookF} size="lg" />
+  </a>
+
+  <a
+    href="https://www.linkedin.com/in/worship-bd/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <FontAwesomeIcon icon={faLinkedinIn} size="lg" />
+  </a>
+
+  <a
+    href="https://x.com/worship_bd"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <FontAwesomeIcon icon={faXTwitter} size="lg" />
+  </a>
+
+  <a
+    href="https://www.instagram.com/worship_BD"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <FontAwesomeIcon icon={faInstagram} size="lg" />
+  </a>
+
+  <a
+    href="https://www.behance.net/worshipbd"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <FontAwesomeIcon icon={faBehance} size="lg" />
+  </a>
+</div>
                 </div>
               </div>
             </div>
@@ -207,10 +233,10 @@ export default function Footer() {
             </p>
             <ul className="footer-menu wow fadeInRight" data-wow-delay=".5s">
               <li>
-                <a href="../terms-and-conditions.html">Terms & Condition</a>
+                <a href="../terms-and-conditions">Terms & Condition</a>
               </li>
               <li>
-                <a href="../privacy-policy.html">Privacy Policy</a>
+                <a href="../privacy-policy">Privacy Policy</a>
               </li>
             </ul>
           </div>
