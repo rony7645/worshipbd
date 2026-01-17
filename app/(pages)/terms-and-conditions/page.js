@@ -4,7 +4,7 @@ export const metadata = {
   title: "Terms & Condition",
 };
 
-export default function GraphicsDesignPage() {
+export default function TermsConditionPage() {
   return (
     <>
       <Breadcrumb title={metadata.title} />

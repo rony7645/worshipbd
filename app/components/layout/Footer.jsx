@@ -138,11 +138,6 @@ export default function Footer() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/case-studies">
-                      <ChevronRight /> Case Studies
-                    </Link>
-                  </li>
-                  <li>
                     <Link href="/contact-us">
                       <ChevronRight /> Contact Us
                     </Link>
@@ -165,13 +160,13 @@ export default function Footer() {
                     <div className="content">
                       <ul className="post-date">
                         <li className="d-flex gap-2 align-items-center">
-                          <CalendarDays size={15} /> 6 Sep, 2024
+                          <CalendarDays size={15} /> 18 Dec, 2024
                         </li>
                       </ul>
                       <h6>
-                        <a href="../blog/front-end-developer.html">
+                        <Link href="/blogs/best-wordpress-themes-for-blogs">
                           Best 10 Front End <br /> Developers in Bangladesh
-                        </a>
+                        </Link>
                       </h6>
                     </div>
                   </div>
@@ -182,13 +177,13 @@ export default function Footer() {
                     <div className="content">
                       <ul className="post-date">
                         <li className="d-flex gap-2 align-items-center">
-                          <CalendarDays size={15} /> 6 Sep, 2024
+                          <CalendarDays size={15} /> September 6, 2024
                         </li>
                       </ul>
                       <h6>
-                        <a href="../blog/wordpress-website-designer.html">
-                          Best 10 WordPress Website <br /> Designers in Bangladesh
-                        </a>
+                        <Link href="/blogs/wordpress-website-designer">
+                          7 Best WordPress <br /> Themes for Blogs 
+                        </Link>
                       </h6>
                     </div>
                   </div>
