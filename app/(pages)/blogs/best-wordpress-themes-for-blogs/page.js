@@ -37,7 +37,7 @@ export default function BlogThree() {
                                         <div class="mb-3">
                                             <h3 class="mb-3">1. Astra</h3>
                                             <p class="mb-3"><strong>Best For:</strong> Lightweight performance and flexible design.</p>
-                                            <p class="mb-3"><strong>Why It Stands Out:</strong> Astra is known for its blazing-fast performance and deep integration with page builders like Elementor and Gutenberg. It offers numerous starter templates for blogs and portfolios, and it's highly customizable without touching a line of code.</p>
+                                            <p class="mb-3"><strong>Why It Stands Out:</strong> Astra is known for its blazing-fast performance and deep integration with page builders like Elementor and Gutenberg. It offers numerous starter templates for blogs and portfolios, and it&apos;s highly customizable without touching a line of code.</p>
                                             <ul class="list ">
                                             <li>Speed optimized (less than 50KB)</li>
                                             <li>Compatible with WooCommerce</li>
@@ -143,7 +143,7 @@ export default function BlogThree() {
                                         <p>Yes, all the themes mentioned are compatible with Gutenberg and most also work seamlessly with Elementor, giving you full design flexibility.</p>
 
                                         <h3>Conclusion</h3>
-                                        <p>The right WordPress theme sets the tone for your entire blogging journey. Whether you're after speed, style, or simplicity, the themes listed above are among the best in October 2024. Test a few, explore demos, and pick the one that matches your blogging vision.</p>
+                                        <p>The right WordPress theme sets the tone for your entire blogging journey. Whether you&apos;re after speed, style, or simplicity, the themes listed above are among the best in October 2024. Test a few, explore demos, and pick the one that matches your blogging vision.</p>
 
                                     </div>
                                 </div>

@@ -46,7 +46,7 @@ export default function BlogTwo() {
 
 
                                         <h3 className="mb-3">Why Website and Digital Marketing Are Crucial?</h3>
-                                        <p className="mb-3">Websites serve as vital platforms for businesses and individuals to reach a broader audience. With growing digital threats like spam, it's essential to ensure your website is secure and reputable. Website spam checkers help maintain credibility, improve SEO, and provide a better user experience.</p>
+                                        <p className="mb-3">Websites serve as vital platforms for businesses and individuals to reach a broader audience. With growing digital threats like spam, it&apos;s essential to ensure your website is secure and reputable. Website spam checkers help maintain credibility, improve SEO, and provide a better user experience.</p>
                                         <p className="mb-3"><strong>How to Use:</strong></p>
                                         <ul className="mb-3">
                                             <li>Copy the URL of the website you want to check.</li>
@@ -74,7 +74,7 @@ export default function BlogTwo() {
 
                                         <article>
                                             <h3 className="mb-3">1. SEMRUSH</h3>
-                                            <p className="mb-3">Semrush is a leading SEO and spam checker tool offering deep website audits, spam score analysis, backlink inspection, and domain authority evaluation. It's perfect for professionals aiming for complete online optimization.</p>
+                                            <p className="mb-3">Semrush is a leading SEO and spam checker tool offering deep website audits, spam score analysis, backlink inspection, and domain authority evaluation. It&apos;s perfect for professionals aiming for complete online optimization.</p>
                                         </article>
 
                                         <article>
@@ -89,7 +89,7 @@ export default function BlogTwo() {
 
                                         <article>
                                             <h3 className="mb-3">4. Moz Pro</h3>
-                                            <p className="mb-3">Moz Pro helps in monitoring spam scores, backlinks, anchor text usage, and other harmful indicators. It's known for its detailed reporting and user-friendly dashboard.</p>
+                                            <p className="mb-3">Moz Pro helps in monitoring spam scores, backlinks, anchor text usage, and other harmful indicators. It&apos;s known for its detailed reporting and user-friendly dashboard.</p>
                                         </article>
 
                                         <article>
@@ -127,7 +127,7 @@ export default function BlogTwo() {
                                         <h3 className="mb-4">FAQs</h3>
 
                                         <h4 className="mb-3">What is a website spam check?</h4>
-                                        <p className="mb-3"><strong>Ans:</strong> It’s a process to detect harmful or low-quality links, duplicate content, or suspicious elements that can damage your site's SEO and credibility.</p>
+                                        <p className="mb-3"><strong>Ans:</strong> It’s a process to detect harmful or low-quality links, duplicate content, or suspicious elements that can damage your site&apos;s SEO and credibility.</p>
 
                                         <h4 className="mb-3">Why is a web spam check important?</h4>
                                         <p className="mb-3"><strong>Ans:</strong> It protects your website from penalties, keeps your rankings stable, and ensures a clean and professional digital presence.</p>
