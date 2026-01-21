@@ -6,7 +6,7 @@ import Button from "../button/Button";
 
 export default function Header() {
   const servicesMenu = [
-    { name: "Web Design & Developments testing", href: "/our-services/web-development" },
+    { name: "Web Design & Development", href: "/our-services/web-development" },
     { name: "Graphics Design", href: "/our-services/graphics-design" },
     { name: "Digital Marketing", href: "/our-services/digital-marketing" },
     { name: "SEO", href: "/our-services/seo" },

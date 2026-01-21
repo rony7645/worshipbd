@@ -1,6 +1,6 @@
 import Breadcrumb from "@/app/components/layout/Breadcrumb";
 import ServiceSidebar from "@/app/components/layout/ServiceSidebar";
-import dataImg from "@/public/img/service/data.jpg";
+import dataImg from "@/public/img/service/data-entry.jpg";
 import { CheckCircle } from "lucide-react";
 import Image from "next/image";
 
